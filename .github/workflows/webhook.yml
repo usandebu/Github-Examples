@@ -2,7 +2,7 @@ name: "Webhook Event example"
 
 on:
   repository_dispatch:
-    types:
+    event_type:
       - webhook
 
 jobs:
